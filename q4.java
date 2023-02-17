@@ -1,20 +1,17 @@
-class A
+class q8
 {
-    static int count = 0;
-    A()
+    static int count=0;
+    q8()
     {
         count++;
     }
-}
-
-public class Main
-{
-    public static void q4(String[] args) {
-        A a1 = new A();
-        A a2 = new A();
-        A a3 = new A();
-        A a4 = new A();
-        A a5 = new A();
-        System.out.println(A.count);
+    public static void main(String args[])
+    {
+        q8 obj1=new q8();
+        q8 obj2=new q8();
+        q8 obj3=new q8();
+        q8 obj4=new q8();
+        q8 obj5=new q8();
+        System.out.println("Number of objects created: "+count);
     }
 }
